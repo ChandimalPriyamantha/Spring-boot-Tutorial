@@ -31,4 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-thymeleaf-springboot-tutorial/src/main/java/com/example/thymeleafspringboottutorial/HelloWorldController.java
