@@ -14,4 +14,9 @@ public class HelloWorldController {
         model.addAttribute("message","helloWorld");
         return "Hello";
     }
+
+    @GetMapping("/bootstrap")
+    public String bootstrap(){
+        return "Add-bootstrap";
+    }
 }
