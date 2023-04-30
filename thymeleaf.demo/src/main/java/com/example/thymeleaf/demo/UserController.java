@@ -23,6 +23,10 @@ public class UserController {
         return "if-unless";
 
         }
-
-
+    @GetMapping("/switch-case")
+    public String switchExample(Model model){
+        Users user = new Users("Ramesh" , "Ramesh@gmail.cm","ADMIN");
+        model.addAttribute("user",user);
+        return "switch-case";
+    }
 }
